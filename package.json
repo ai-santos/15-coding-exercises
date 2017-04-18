@@ -11,6 +11,8 @@
     "mocha": "2.0.1"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register"
+    "build": "babel --copy-files src -d dist",
+    "build:watch": "npm run build -- --watch",
+    "test": "mocha --compilers js:babel-register ./test/*.js"
   }
 }
