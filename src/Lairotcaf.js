@@ -1,4 +1,4 @@
-const reverseFactorial = (num) => {
+const Lairotcaf = (num) => {
   let input = num
   if(num === 0 || num === 1) {
     return 1
@@ -20,4 +20,4 @@ const reverseFactorial = (num) => {
   }
 }
 
-export default reverseFactorial
+export default Lairotcaf

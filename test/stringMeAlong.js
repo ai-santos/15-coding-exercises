@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import stringMeAlong from '../src/stringMeAlongAlong'
+import stringMeAlong from '../src/stringMeAlong'
 
 describe('stringMeAlong()', () => {
   it('should print correct characters with first example.', () => {

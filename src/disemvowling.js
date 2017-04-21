@@ -1,5 +1,5 @@
 const dismvowling = (str) => {
- return inputString.replace(/[aeiouAEIOU\s]/g, '')
+ return str.replace(/[aeiouAEIOU\s]/g, '')
 }
 
 export default dismvowling
