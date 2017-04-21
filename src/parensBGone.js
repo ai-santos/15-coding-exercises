@@ -1,4 +1,4 @@
-const balancedParens = (str) => {
+const parensBGone = (str) => {
   const stack = [];
   const open = { '(': ')' };
   const closed = { ')': true };
@@ -13,4 +13,6 @@ const balancedParens = (str) => {
   }
 
   return stack.length === 0;
-};
+}
+
+export parensBGone

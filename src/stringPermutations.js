@@ -1,4 +1,4 @@
-const stringPermutation = (str) => {
+const stringPermutations = (str) => {
   if (str.length < 2) return string
   const permutations = []
   for(let i = 0; i < str.length; i++) {
@@ -16,3 +16,5 @@ const permutations = permut('car');
 for (permutation of permutations) {
   console.log(permutation)
 }
+
+export default stringPermutations

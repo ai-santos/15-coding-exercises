@@ -19,3 +19,5 @@ const reverseFactorial = (num) => {
       }
   }
 }
+
+export default reverseFactorial

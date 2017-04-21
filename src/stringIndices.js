@@ -14,3 +14,5 @@ const strIndices = (string, index) => {
     return strArray[index]
   }
 }
+
+export default strIndices

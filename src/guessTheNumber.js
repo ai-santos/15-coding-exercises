@@ -50,8 +50,5 @@ class GuessNum {
 
 }
 
-const gn = new GuessNum()
-gn.gameStart()
-
-// export default GuessNum
+export default GuessNum
 

@@ -11,3 +11,4 @@ const whereInTheJSON = (obj, stack) => {
     }
 }
 
+export default whereInTheJSON

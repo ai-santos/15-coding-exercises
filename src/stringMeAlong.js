@@ -43,4 +43,4 @@ const stringMeAlong = (str, uniqChar) => {
     return maxSubstring;
 }
 
-console.log(stringMeAlong('abcabcbb', 2))
+export default stringMeAlong

@@ -6,3 +6,5 @@ const fibonacci = (num, memo) => {
 
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 }
+
+export default fibonacci
